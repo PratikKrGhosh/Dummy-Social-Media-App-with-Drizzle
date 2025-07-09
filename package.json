@@ -1,0 +1,36 @@
+{
+  "name": "dummy-social-media-app-with-drizzle",
+  "version": "1.0.0",
+  "description": "This is a Dummy Social Media website to practice Dual Auth, Email Verification, Reset and Forget Password",
+  "keywords": [
+    "drizzle",
+    "mysql2",
+    "password-hash",
+    "dual-auth",
+    "email-verification",
+    "forget-password",
+    "resend",
+    "node",
+    "express"
+  ],
+  "homepage": "https://github.com/PratikKrGhosh/Dummy-Social-Media-App-with-Drizzle#readme",
+  "bugs": {
+    "url": "https://github.com/PratikKrGhosh/Dummy-Social-Media-App-with-Drizzle/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PratikKrGhosh/Dummy-Social-Media-App-with-Drizzle.git"
+  },
+  "license": "MIT",
+  "author": "Pratik Kumar Ghosh",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0"
+  }
+}
